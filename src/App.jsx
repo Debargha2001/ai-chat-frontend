@@ -19,7 +19,7 @@ function App() {
 
     setMessage("");
 
-    fetch("https://www.ai-chat-backend.vercel.app/", {
+    fetch("https://ai-chat-backend.vercel.app/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
